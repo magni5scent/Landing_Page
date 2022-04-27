@@ -1,4 +1,4 @@
-body{
+/* body{
     @media (max-width: $phone;) {
         display: block;
         font-size: 20px;
@@ -16,7 +16,7 @@ body{
         margin: 0px
     }
 
-}
+} */
 
 
 
@@ -39,9 +39,9 @@ body{
 .nar3{
     padding-left: 120px;
 
-    @media(max-width:$laptop) {
+    /* @media(max-width:$laptop) {
         padding-left:180px;
-    }
+    } */
 }
 
 .nar2{
@@ -180,6 +180,9 @@ button{
     text-align: center;
     justify-content: center;
     font-size: 10px;
+    @media(max-width: $desktop;) {
+        background-color: greenyellow;
+    }
    
  }
 
@@ -233,6 +236,27 @@ link li:hover{
     .link {
         display: none;
     }
+    /* body{
+        @media (max-width: $phone;) {
+            display: block;
+            font-size: 20px;
+            padding: 30px;
+            margin: 30px;
+        }
+    
+        @media (max-width: $laptop;) {
+            padding: 15px;
+            margin: 15px;
+        }
+    
+        @media (max-width: $tablet;) {
+            padding: 15px;
+            margin: 0px
+        }
+    
+    } */
+    
+
 } 
     
 
