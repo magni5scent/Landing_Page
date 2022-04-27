@@ -199,8 +199,15 @@ button{
 
 link li:hover{
     color: greenyellow;
-    background-color: #3882f6;
+    background-color: #f66e38;
 }
+
+
+.material-symbols-outlined {
+  font-size: small;
+  font-weight: lighter;
+}
+
 
 
 .copy{
