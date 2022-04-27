@@ -215,7 +215,7 @@ link li:hover{
 }
 
 .nar1{
-    padding-left: 10px;
+    padding-left: 2px;
 }
 
 
@@ -234,7 +234,7 @@ link li:hover{
     font-size: 13px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 450px) {
     .link {
         display: none;
     }
