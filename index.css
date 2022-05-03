@@ -91,6 +91,7 @@ span{
     color: #1f2937;
     display: flex;
     flex-wrap: wrap;
+    font-weight: bold ;
 }
 
 #naruu{
